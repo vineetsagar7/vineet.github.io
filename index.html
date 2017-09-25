@@ -3,12 +3,169 @@
 
 <head>
     <title>Blogs</title>
+
+
+
 </head>
 
 <body>
 
-    <h1>How to improve website performance</h1>
-    <p>Metrices to check your website performance</p>
+    <style>
+        ul {
+            display: flex;
+            border: 1px solid red;
+            padding: 0;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #e8e8e9;
+        }
+        
+        li {
+            background-color: #8cacea;
+            width: 100px;
+            height: 100px;
+            margin: 8px;
+            padding: 4px;
+        }
+        
+        li:nth-child(1) {
+            order: 1;
+            /*give it a value higher than 0*/
+        }
+        
+        li:nth-child(2) {
+            order: 1;
+            /*give it a value higher than 0*/
+        }
+    </style>
+    <div>
+
+        <h1> In-depth introduction of chrome </h1>
+
+        <script src="test" async></script>
+        Have you ever got curious,that why we write async attribute with script tag, If not then you must start pomdering on this.
+        We wrtie async attribute to avoid any blockage to critical rendering path, when the browser loads for the first time, DOM and CSSOM 
+        get build on the chrome, If we don't add the async it start compiling the javascript code which make the page load slow. 
+        To avoid this it is always preferable to write 'async' attribute with the script tag.
+
+        "Add an image of google devtools and explain, elaboratet he color " 
+
+
+        <h1> ES6/ ES7 feature: </h1>
+
+        1. Promises: It Promises to give the result of defered or long time running task, it accept two parameter resolve and reject. To
+                     get the result you provide .then() and catch() is used for potential error.
+        
+        
+        promise(get, https://enployeeDetails)
+        .then((x)=>{
+            if(x === true){
+                resolve();
+            }else{
+                reject
+            }
+        })
+
+        let x1 = new Promise();
+        let x2 = new Promise();
+        let x3 = new Promise();
+        
+        promiseALL(x1,x2,x3).then((x)=>{
+            
+        });
+
+
+        2. Generators:
+        3. Map
+        4. Filter
+        5. flatMap
+        6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1> Css Flex: </h1>
+        <p>
+            Flexbox ensures that the layout works in all the devices, witout any
+            <div>
+                Flex lays the foundation for future desinging making the code more futuristic
+                <div>
+        </p>
+        <p>
+            display: Flex-direction || Flex-wrap || Felx-flow || Justify-content || Align-items || Align-Content
+        </p>
+        <div>
+            1. flex-direction: row, row-reverse, coloumn, coloumn-revers
+            <div>
+                <div>
+                    property: row, flex direction having row propert will make the flex-item aligned in horizontal fashion. Example could be
+                    seen below.
+                </div>
+                <div>
+                    propert: row-reverse
+                </div>
+                <div>
+                    property: coloumn
+                </div>
+                <div>
+                    property: coloumn-revers
+                </div>
+            </div>
+
+        </div>
+        <div>
+            2. flex-wrap: wrap, nowrap, wrap-reverse;
+
+            <div> nowrap:</div>
+            <div> wrap: </div>
+            <div> wrap-reverse: </div>
+
+        </div>
+        <div>
+            3. flex-flow: flex-flow is a shorthand property which takes flex-direction and flex-wrap values. flex-flow: row-reverse wrap-reverse
+
+        </div>
+        <div>
+            4. justify-content: justify-content: flex-start || flex-end || center || space-between || space-around
+        </div>
+        <div>
+            5. align-items: flex-start || fles-end || center || strech || baseline
+        </div>
+
+        <div>
+            6. align-content: flex-start || fles-end || center || strech || baseline
+        </div>
+        </div>
+
+
+
+
+
+        <div>
+            <h1>How to improve website performance</h1>
+            <p>Metrices to check your website performance</p>
+
+        </div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li </ul>
+
+
 
 </body>
 
